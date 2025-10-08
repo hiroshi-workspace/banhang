@@ -1,0 +1,73 @@
+/**
+ * Theme Name:     Hiroshi Lord
+ * Author:         Hiroshi Lord
+ * Template:       flatsome
+ * Text Domain:	   k-tech
+ * Description:    Theme Build by Hiroshi Lord
+ * Version:        2025
+ */
+
+/* DEFAULT NO BORDER AND LINE-THROUGH */
+.section-title-center b {
+  opacity: 0;
+}
+
+.section-title-normal {
+  border-bottom: none;
+}
+
+.section-title-normal span {
+  border-bottom: none;
+}
+
+.text-cap {
+  span {
+    text-transform: capitalize;
+  }
+}
+
+.border-radius {
+  border-radius: 8px;
+  overflow: hidden;
+
+  img {
+    border-radius: 8px;
+  }
+}
+
+.sec-footer {
+  .custom-menu-white .ux-menu-link__text {
+    color: #ffff !important;
+    text-align: left !important;
+  }
+}
+
+.text-overflow {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* Giới hạn tối đa 2 dòng */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Hiện dấu ... nếu vượt quá */
+  white-space: normal;
+  /* Cho phép xuống dòng */
+
+  a {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* Giới hạn tối đa 2 dòng */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Hiện dấu ... nếu vượt quá */
+    white-space: normal;
+    /* Cho phép xuống dòng */
+  }
+}
+
+.d-none {
+  display: none !important;
+}
+
+/* END */

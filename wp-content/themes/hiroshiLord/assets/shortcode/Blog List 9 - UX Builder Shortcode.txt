@@ -1,0 +1,22 @@
+[section label="Blog Section" padding="80px"]
+
+[row label="Title Row" style="small" v_align="middle" class="obelix-blog-list--nine"]
+
+[col span__sm="12" padding="0px 7rem 0px 0px" padding__sm="0px 0px 0px 0px"]
+
+[ux_text font_size="1.25" class="theme-title-block"]
+
+Latest Blog And News
+[/ux_text]
+[ux_text font_size="1.4" class="theme-title-block"]
+
+Crafting spaces that thereflect your style
+[/ux_text]
+
+[/col]
+
+[/row]
+[blog_posts style="default" col_spacing="large" columns="3" columns__md="2" slider_nav_style="simple" title_size="xlarge" show_date="text" excerpt_length="10" show_category="text" comments="false" image_height="87%" image_size="large" text_align="left" text_bg="rgb(247, 247, 247)" text_padding="1rem 1.6rem 1rem 1.6rem" class="obelix-blog-list--nine"]
+
+
+[/section]
